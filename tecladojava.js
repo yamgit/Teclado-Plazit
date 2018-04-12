@@ -1,7 +1,7 @@
 document.addEventListener("keyup",dibujarTeclado);
 
-function dibujarTeclado(evento)
+function dibujarTeclado(tecla)
 {
-	console.log("Tecla oprimida");
-	console.log(evento);
+
+	console.log(tecla);
 }
