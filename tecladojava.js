@@ -1,7 +1,6 @@
-document.addEventListener("keyup",dibujarTeclado);
+document.addEventListener("keydown",detectandoTeclas);
 
-function dibujarTeclado(tecla)
+function detectandoTeclas(teclado)
 {
-
-	console.log(tecla);
+	console.log(teclado);
 }
